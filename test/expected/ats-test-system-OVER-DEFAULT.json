@@ -1,0 +1,89 @@
+{
+  "query": "random test query",
+  "sport": "NFL",
+  "breakdown": {
+    "by": "season",
+    "values": [
+      {
+        "count": 4,
+        "return": -1.0909090909090908,
+        "min": -1.0909090909090908,
+        "max": 0.9090909090909092,
+        "maxPositiveStreak": 1,
+        "maxNegativeStreak": 1,
+        "breakdownValue": "2011",
+        "yield": -0.2727272727272727,
+        "averageOdd": 1.9090909090909092
+      },
+      {
+        "count": 5,
+        "return": 2.6363636363636367,
+        "min": 0.9090909090909092,
+        "max": 2.7272727272727275,
+        "maxPositiveStreak": 3,
+        "maxNegativeStreak": 1,
+        "breakdownValue": "2012",
+        "yield": 0.5272727272727273,
+        "averageOdd": 1.9090909090909094
+      },
+      {
+        "count": 4,
+        "return": -4,
+        "min": -4,
+        "max": -1,
+        "maxPositiveStreak": 0,
+        "maxNegativeStreak": 4,
+        "breakdownValue": "2013",
+        "yield": -1,
+        "averageOdd": 1.9090909090909092
+      },
+      {
+        "count": 7,
+        "return": -1.2727272727272725,
+        "min": -3.090909090909091,
+        "max": -0.09090909090909083,
+        "maxPositiveStreak": 2,
+        "maxNegativeStreak": 3,
+        "breakdownValue": "2014",
+        "yield": -0.1818181818181818,
+        "averageOdd": 1.9090909090909096
+      },
+      {
+        "count": 2,
+        "return": -2,
+        "min": -2,
+        "max": -1,
+        "maxPositiveStreak": 0,
+        "maxNegativeStreak": 2,
+        "breakdownValue": "2015",
+        "yield": -1,
+        "averageOdd": 1.9090909090909092
+      },
+      {
+        "count": 3,
+        "return": 1.8181818181818183,
+        "min": 0,
+        "max": 1.8181818181818183,
+        "maxPositiveStreak": 2,
+        "maxNegativeStreak": 0,
+        "breakdownValue": "2016",
+        "yield": 0.6060606060606061,
+        "averageOdd": 1.9090909090909092
+      }
+    ]
+  },
+  "summary": {
+    "count": 4.166666666666667,
+    "return": -0.6515151515151514,
+    "minBankroll": -4,
+    "worstReturn": -4,
+    "bestReturn": 2.6363636363636367,
+    "losingSeason": 4,
+    "averageOdd": 1.9090909090909094,
+    "yield": -0.15636363636363632,
+    "returnSharpeRatio": -0.2888770076199121,
+    "countSharpeRatio": 2.6499947000159,
+    "countParameters": 2,
+    "type": "OVER"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "sdql",
+  "version": "1.0.0",
+  "description": "A Node.js module to query and analyze SDQL query",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydneyhenrard/sdql.git"
+  },
+  "keywords": [
+    "sdql"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sydneyhenrard/sdql/issues"
+  },
+  "homepage": "https://github.com/sydneyhenrard/sdql#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3",
+    "simple-statistics": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-json-equal": "0.0.1",
+    "mocha": "^3.2.0"
+  }
+}

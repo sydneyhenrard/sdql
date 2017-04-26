@@ -1,0 +1,256 @@
+{
+  "query": "random test query",
+  "sport": "NFL",
+  "picks": [
+    {
+      "date": "20151205",
+      "team": "C",
+      "opponent": "P",
+      "site": "H",
+      "suMargin": -11,
+      "ouMargin": -2,
+      "atsMargin": 15,
+      "season": "2015"
+    },
+    {
+      "date": "20110725",
+      "team": "J",
+      "opponent": "N",
+      "site": "H",
+      "suMargin": 12,
+      "ouMargin": -5,
+      "atsMargin": -6,
+      "season": "2011"
+    },
+    {
+      "date": "20140916",
+      "team": "Q",
+      "opponent": "K",
+      "site": "A",
+      "suMargin": 15,
+      "ouMargin": -9,
+      "atsMargin": -2,
+      "season": "2014"
+    },
+    {
+      "date": "20160913",
+      "team": "[",
+      "opponent": "K",
+      "site": "H",
+      "suMargin": 0,
+      "ouMargin": 13,
+      "atsMargin": -12,
+      "season": "2016"
+    },
+    {
+      "date": "20150112",
+      "team": "Y",
+      "opponent": "Z",
+      "site": "H",
+      "suMargin": 4,
+      "ouMargin": -6,
+      "atsMargin": 4,
+      "season": "2015"
+    },
+    {
+      "date": "20111005",
+      "team": "T",
+      "opponent": "U",
+      "site": "A",
+      "suMargin": -8,
+      "ouMargin": 0,
+      "atsMargin": -12,
+      "season": "2011"
+    },
+    {
+      "date": "20140510",
+      "team": "S",
+      "opponent": "[",
+      "site": "A",
+      "suMargin": -1,
+      "ouMargin": -14,
+      "atsMargin": 14,
+      "season": "2014"
+    },
+    {
+      "date": "20110310",
+      "team": "O",
+      "opponent": "[",
+      "site": "A",
+      "suMargin": 11,
+      "ouMargin": 1,
+      "atsMargin": 9,
+      "season": "2011"
+    },
+    {
+      "date": "20130410",
+      "team": "S",
+      "opponent": "S",
+      "site": "A",
+      "suMargin": 0,
+      "ouMargin": -5,
+      "atsMargin": 2,
+      "season": "2013"
+    },
+    {
+      "date": "20120202",
+      "team": "A",
+      "opponent": "C",
+      "site": "A",
+      "suMargin": 1,
+      "ouMargin": 8,
+      "atsMargin": 4,
+      "season": "2012"
+    },
+    {
+      "date": "20140406",
+      "team": "Z",
+      "opponent": "I",
+      "site": "A",
+      "suMargin": 8,
+      "ouMargin": -3,
+      "atsMargin": 15,
+      "season": "2014"
+    },
+    {
+      "date": "20121017",
+      "team": "R",
+      "opponent": "H",
+      "site": "H",
+      "suMargin": 2,
+      "ouMargin": 2,
+      "atsMargin": 3,
+      "season": "2012"
+    },
+    {
+      "date": "20120911",
+      "team": "Q",
+      "opponent": "J",
+      "site": "H",
+      "suMargin": 9,
+      "ouMargin": -9,
+      "atsMargin": 2,
+      "season": "2012"
+    },
+    {
+      "date": "20160428",
+      "team": "C",
+      "opponent": "S",
+      "site": "H",
+      "suMargin": -14,
+      "ouMargin": 0,
+      "atsMargin": 0,
+      "season": "2016"
+    },
+    {
+      "date": "20141124",
+      "team": "Z",
+      "opponent": "X",
+      "site": "A",
+      "suMargin": 15,
+      "ouMargin": 11,
+      "atsMargin": -13,
+      "season": "2014"
+    },
+    {
+      "date": "20160715",
+      "team": "E",
+      "opponent": "A",
+      "site": "A",
+      "suMargin": -4,
+      "ouMargin": 3,
+      "atsMargin": 5,
+      "season": "2016"
+    },
+    {
+      "date": "20131023",
+      "team": "D",
+      "opponent": "T",
+      "site": "A",
+      "suMargin": 1,
+      "ouMargin": -6,
+      "atsMargin": 8,
+      "season": "2013"
+    },
+    {
+      "date": "20131027",
+      "team": "P",
+      "opponent": "D",
+      "site": "A",
+      "suMargin": -8,
+      "ouMargin": -6,
+      "atsMargin": -5,
+      "season": "2013"
+    },
+    {
+      "date": "20130428",
+      "team": "Z",
+      "opponent": "H",
+      "site": "A",
+      "suMargin": -6,
+      "ouMargin": -3,
+      "atsMargin": 11,
+      "season": "2013"
+    },
+    {
+      "date": "20120110",
+      "team": "J",
+      "opponent": "L",
+      "site": "H",
+      "suMargin": 13,
+      "ouMargin": 12,
+      "atsMargin": 14,
+      "season": "2012"
+    },
+    {
+      "date": "20140305",
+      "team": "L",
+      "opponent": "B",
+      "site": "H",
+      "suMargin": 7,
+      "ouMargin": 9,
+      "atsMargin": 14,
+      "season": "2014"
+    },
+    {
+      "date": "20141211",
+      "team": "K",
+      "opponent": "Q",
+      "site": "A",
+      "suMargin": -4,
+      "ouMargin": 9,
+      "atsMargin": 12,
+      "season": "2014"
+    },
+    {
+      "date": "20120305",
+      "team": "X",
+      "opponent": "F",
+      "site": "A",
+      "suMargin": 15,
+      "ouMargin": 3,
+      "atsMargin": -5,
+      "season": "2012"
+    },
+    {
+      "date": "20140106",
+      "team": "K",
+      "opponent": "F",
+      "site": "H",
+      "suMargin": 14,
+      "ouMargin": -1,
+      "atsMargin": -12,
+      "season": "2014"
+    },
+    {
+      "date": "20110725",
+      "team": "O",
+      "opponent": "H",
+      "site": "A",
+      "suMargin": 3,
+      "ouMargin": -12,
+      "atsMargin": -15,
+      "season": "2011"
+    }
+  ]
+}

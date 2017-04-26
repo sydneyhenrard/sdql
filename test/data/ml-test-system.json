@@ -1,0 +1,431 @@
+{
+  "query": "random test query",
+  "sport": "MLB",
+  "picks": [
+    {
+      "date": "20140703",
+      "team": "K",
+      "opponent": "I",
+      "site": "H",
+      "suMargin": 10,
+      "ouMargin": -6,
+      "odd": {
+        "value": -141,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 143,
+        "type": "US"
+      },
+      "season": "2014"
+    },
+    {
+      "date": "20141020",
+      "team": "I",
+      "opponent": "J",
+      "site": "H",
+      "suMargin": -8,
+      "ouMargin": 12,
+      "odd": {
+        "value": -173,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 158,
+        "type": "US"
+      },
+      "season": "2014"
+    },
+    {
+      "date": "20160211",
+      "team": "H",
+      "opponent": "P",
+      "site": "H",
+      "suMargin": 3,
+      "ouMargin": 4,
+      "odd": {
+        "value": 161,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -180,
+        "type": "US"
+      },
+      "season": "2016"
+    },
+    {
+      "date": "20110406",
+      "team": "U",
+      "opponent": "C",
+      "site": "H",
+      "suMargin": 8,
+      "ouMargin": 3,
+      "odd": {
+        "value": 148,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -181,
+        "type": "US"
+      },
+      "season": "2011"
+    },
+    {
+      "date": "20110120",
+      "team": "Z",
+      "opponent": "R",
+      "site": "A",
+      "suMargin": 1,
+      "ouMargin": 10,
+      "odd": {
+        "value": -152,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 199,
+        "type": "US"
+      },
+      "season": "2011"
+    },
+    {
+      "date": "20120623",
+      "team": "I",
+      "opponent": "P",
+      "site": "H",
+      "suMargin": 1,
+      "ouMargin": 0,
+      "odd": {
+        "value": 172,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -168,
+        "type": "US"
+      },
+      "season": "2012"
+    },
+    {
+      "date": "20130721",
+      "team": "G",
+      "opponent": "X",
+      "site": "H",
+      "suMargin": -1,
+      "ouMargin": -9,
+      "odd": {
+        "value": 118,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -180,
+        "type": "US"
+      },
+      "season": "2013"
+    },
+    {
+      "date": "20120909",
+      "team": "L",
+      "opponent": "X",
+      "site": "A",
+      "suMargin": -12,
+      "ouMargin": 12,
+      "odd": {
+        "value": -183,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 113,
+        "type": "US"
+      },
+      "season": "2012"
+    },
+    {
+      "date": "20130627",
+      "team": "K",
+      "opponent": "K",
+      "site": "H",
+      "suMargin": 7,
+      "ouMargin": -14,
+      "odd": {
+        "value": 198,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -103,
+        "type": "US"
+      },
+      "season": "2013"
+    },
+    {
+      "date": "20140105",
+      "team": "L",
+      "opponent": "V",
+      "site": "H",
+      "suMargin": -7,
+      "ouMargin": 4,
+      "odd": {
+        "value": -175,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 161,
+        "type": "US"
+      },
+      "season": "2014"
+    },
+    {
+      "date": "20160708",
+      "team": "I",
+      "opponent": "A",
+      "site": "H",
+      "suMargin": 5,
+      "ouMargin": 4,
+      "odd": {
+        "value": -111,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 146,
+        "type": "US"
+      },
+      "season": "2016"
+    },
+    {
+      "date": "20140311",
+      "team": "H",
+      "opponent": "H",
+      "site": "H",
+      "suMargin": 6,
+      "ouMargin": -2,
+      "odd": {
+        "value": -155,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 161,
+        "type": "US"
+      },
+      "season": "2014"
+    },
+    {
+      "date": "20110609",
+      "team": "S",
+      "opponent": "M",
+      "site": "A",
+      "suMargin": -5,
+      "ouMargin": -1,
+      "odd": {
+        "value": 180,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -134,
+        "type": "US"
+      },
+      "season": "2011"
+    },
+    {
+      "date": "20120325",
+      "team": "Y",
+      "opponent": "H",
+      "site": "A",
+      "suMargin": 3,
+      "ouMargin": -4,
+      "odd": {
+        "value": -177,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 124,
+        "type": "US"
+      },
+      "season": "2012"
+    },
+    {
+      "date": "20141017",
+      "team": "R",
+      "opponent": "I",
+      "site": "H",
+      "suMargin": 10,
+      "ouMargin": -7,
+      "odd": {
+        "value": 178,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -198,
+        "type": "US"
+      },
+      "season": "2014"
+    },
+    {
+      "date": "20150501",
+      "team": "H",
+      "opponent": "V",
+      "site": "H",
+      "suMargin": -4,
+      "ouMargin": 14,
+      "odd": {
+        "value": -126,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 103,
+        "type": "US"
+      },
+      "season": "2015"
+    },
+    {
+      "date": "20120926",
+      "team": "D",
+      "opponent": "G",
+      "site": "H",
+      "suMargin": -4,
+      "ouMargin": 4,
+      "odd": {
+        "value": -142,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 115,
+        "type": "US"
+      },
+      "season": "2012"
+    },
+    {
+      "date": "20140509",
+      "team": "C",
+      "opponent": "M",
+      "site": "H",
+      "suMargin": 5,
+      "ouMargin": -12,
+      "odd": {
+        "value": -158,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 178,
+        "type": "US"
+      },
+      "season": "2014"
+    },
+    {
+      "date": "20130428",
+      "team": "Q",
+      "opponent": "F",
+      "site": "H",
+      "suMargin": 15,
+      "ouMargin": 7,
+      "odd": {
+        "value": -170,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 193,
+        "type": "US"
+      },
+      "season": "2013"
+    },
+    {
+      "date": "20160215",
+      "team": "J",
+      "opponent": "[",
+      "site": "A",
+      "suMargin": 8,
+      "ouMargin": -10,
+      "odd": {
+        "value": 186,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -129,
+        "type": "US"
+      },
+      "season": "2016"
+    },
+    {
+      "date": "20111121",
+      "team": "X",
+      "opponent": "D",
+      "site": "A",
+      "suMargin": 3,
+      "ouMargin": 12,
+      "odd": {
+        "value": 101,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -143,
+        "type": "US"
+      },
+      "season": "2011"
+    },
+    {
+      "date": "20150820",
+      "team": "[",
+      "opponent": "K",
+      "site": "H",
+      "suMargin": -11,
+      "ouMargin": -3,
+      "odd": {
+        "value": 101,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -175,
+        "type": "US"
+      },
+      "season": "2015"
+    },
+    {
+      "date": "20141128",
+      "team": "N",
+      "opponent": "D",
+      "site": "A",
+      "suMargin": -15,
+      "ouMargin": -4,
+      "odd": {
+        "value": -117,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 127,
+        "type": "US"
+      },
+      "season": "2014"
+    },
+    {
+      "date": "20110716",
+      "team": "R",
+      "opponent": "L",
+      "site": "A",
+      "suMargin": 11,
+      "ouMargin": -11,
+      "odd": {
+        "value": -151,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": 151,
+        "type": "US"
+      },
+      "season": "2011"
+    },
+    {
+      "date": "20150608",
+      "team": "I",
+      "opponent": "O",
+      "site": "A",
+      "suMargin": -5,
+      "ouMargin": 5,
+      "odd": {
+        "value": 200,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -138,
+        "type": "US"
+      },
+      "season": "2015"
+    }
+  ]
+}
