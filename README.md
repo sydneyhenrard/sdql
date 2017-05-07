@@ -1,4 +1,4 @@
-# SDQL
+# SDQL [![Build Status](https://travis-ci.org/sydneyhenrard/sdql.svg?branch=master)](https://travis-ci.org/sydneyhenrard/sdql)
 
 A Node.js module to query and analyze SDQL query
 
