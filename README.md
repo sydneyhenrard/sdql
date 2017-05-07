@@ -1,4 +1,4 @@
-# SDQL [![Build Status](https://travis-ci.org/sydneyhenrard/sdql.svg?branch=master)](https://travis-ci.org/sydneyhenrard/sdql)
+# SDQL [![Build Status](https://travis-ci.org/sydneyhenrard/sdql.svg?branch=master)](https://travis-ci.org/sydneyhenrard/sdql) [![Coverage Status](https://coveralls.io/repos/github/sydneyhenrard/sdql/badge.svg)](https://coveralls.io/github/sydneyhenrard/sdql)
 
 A Node.js module to query and analyze SDQL query
 
