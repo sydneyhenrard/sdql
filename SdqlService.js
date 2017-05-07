@@ -106,7 +106,14 @@ class SdqlService {
 
 	analyze(system, type, includePicks, breakdown, overrideOdd) {
 		let isATS = this._isATS(system.sport);
-		let picksByBreakdown = breakdown != null ? _.groupBy(system.picks, breakdown) : {all: system.picks};
+		let filteredPicks = _.filter(system.picks, p => {
+			let graded = p.suMargin != null && p.ouMargin != null;
+			if (isATS) {
+				graded & p.atsMargin != null;
+			}
+			return graded;
+		});
+		let picksByBreakdown = breakdown != null ? _.groupBy(filteredPicks, breakdown) : {all: filteredPicks};
 		let breakdownSummaries = [];
 		for (let key of Object.keys(picksByBreakdown)) {
 			let breakdownSummary = this._getPicksSummary(picksByBreakdown[key], type, isATS, key, overrideOdd);

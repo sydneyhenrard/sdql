@@ -426,6 +426,23 @@
         "type": "US"
       },
       "season": "2015"
+    },
+    {
+      "date": "20170507",
+      "team": "I",
+      "opponent": "O",
+      "site": "A",
+      "suMargin": null,
+      "ouMargin": null,
+      "odd": {
+        "value": 200,
+        "type": "US"
+      },
+      "opponentOdd": {
+        "value": -138,
+        "type": "US"
+      },
+      "season": "2017"
     }
   ]
 }
