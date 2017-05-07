@@ -251,6 +251,16 @@
       "ouMargin": -12,
       "atsMargin": -15,
       "season": "2011"
+    },
+    {
+      "date": "20170507",
+      "team": "O",
+      "opponent": "H",
+      "site": "A",
+      "suMargin": null,
+      "ouMargin": null,
+      "atsMargin": null,
+      "season": "2017"
     }
   ]
 }
