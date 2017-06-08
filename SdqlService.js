@@ -26,6 +26,11 @@ class SdqlService {
 	}
 
 	run(query, sport, ...breakdowns) {
+		try {
+			this._checkQuery(query);
+		} catch(e) {
+			return Promise.reject(e);
+		}
 		let url = this._buildUrl(query, sport, breakdowns);
 		var options = {
 			uri: url,
@@ -81,6 +86,12 @@ class SdqlService {
 				};
 				return Promise.resolve(system);
 			});
+	}
+
+	_checkQuery(query) {
+		if(query.indexOf(',') !== -1) {
+			throw new Error('Query with comma delimited grouping is not supported');
+		}
 	}
 
 	_buildUrl(query, sport, breakdowns) {
