@@ -1,6 +1,6 @@
 {
   "name": "sdql",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Node.js module to query and analyze SDQL query",
   "main": "index.js",
   "scripts": {
