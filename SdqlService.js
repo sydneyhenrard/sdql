@@ -117,7 +117,14 @@ class SdqlService {
 
 	analyze(system, type, includePicks, breakdown, overrideOdd) {
 		let isATS = this._isATS(system.sport);
-		let picksByBreakdown = breakdown != null ? _.groupBy(system.picks, breakdown) : {all: system.picks};
+		let filteredPicks = _.filter(system.picks, p => {
+			let graded = p.suMargin != null && p.ouMargin != null;
+			if (isATS) {
+				graded & p.atsMargin != null;
+			}
+			return graded;
+		});
+		let picksByBreakdown = breakdown != null ? _.groupBy(filteredPicks, breakdown) : {all: filteredPicks};
 		let breakdownSummaries = [];
 		for (let key of Object.keys(picksByBreakdown)) {
 			let breakdownSummary = this._getPicksSummary(picksByBreakdown[key], type, isATS, key, overrideOdd);
@@ -153,7 +160,7 @@ class SdqlService {
 		return _.reduce(picks, (result, value) => {
 			result.count++;
 			result.return += this._getProfit(value, type, isATS, overrideOdd);
-			result.sumOdd += this._getOdd(type, value.odd, value.opponentOdd, overrideOdd).value;
+			result.sumOdd += this._getOdd(type, isATS, value.odd, value.opponentOdd, overrideOdd).value;
 			return result;
 		}, {count: 0, return: 0, sumOdd: 0});
 	}
@@ -201,13 +208,13 @@ class SdqlService {
 			let margin = isATS ? pick.atsMargin : pick.suMargin;
 			if (type === 'ON') {
 				if (margin > 0) {
-					profit = this._getOdd(type, pick.odd, pick.opponentOdd, overrideOdd).value - 1;
+					profit = this._getOdd(type, isATS, pick.odd, pick.opponentOdd, overrideOdd).value - 1;
 				} else if (margin < 0) {
 					profit = -1;
 				}
 			} else if (type === 'AGAINST') {
 				if (margin < 0) {
-					profit = this._getOdd(type, pick.odd, pick.opponentOdd, overrideOdd).value - 1;
+					profit = this._getOdd(type, isATS, pick.odd, pick.opponentOdd, overrideOdd).value - 1;
 				} else if (margin > 0) {
 					profit = -1;
 				}
@@ -216,13 +223,13 @@ class SdqlService {
 			let margin = pick.ouMargin;
 			if (type === 'OVER') {
 				if (margin > 0) {
-					profit = this._getOdd(type, pick.odd, pick.opponentOdd, overrideOdd).value - 1;
+					profit = this._getOdd(type, isATS, pick.odd, pick.opponentOdd, overrideOdd).value - 1;
 				} else if (margin < 0) {
 					profit = -1;
 				}
 			} else if (type === 'UNDER') {
 				if (margin < 0) {
-					profit = this._getOdd(type, pick.odd, pick.opponentOdd, overrideOdd).value - 1;
+					profit = this._getOdd(type, isATS, pick.odd, pick.opponentOdd, overrideOdd).value - 1;
 				} else if (margin > 0) {
 					profit = -1;
 				}
@@ -231,12 +238,14 @@ class SdqlService {
 		return profit;
 	}
 
-	_getOdd(type, odd, opponentOdd, overrideOdd) {
+	_getOdd(type, isATS, odd, opponentOdd, overrideOdd) {
 		let actualOdd;
-		if (type === 'ON') {
-			actualOdd = odd;
-		} else if (type === 'AGAINST') {
-			actualOdd = opponentOdd;
+		if (!isATS) {
+			if (type === 'ON') {
+				actualOdd = odd;
+			} else if (type === 'AGAINST') {
+				actualOdd = opponentOdd;
+			}
 		}
 		if (actualOdd == null) {
 			if (overrideOdd != null) {

@@ -1,0 +1,89 @@
+{
+  "query": "random test query",
+  "sport": "MLB",
+  "breakdown": {
+    "by": "season",
+    "values": [
+      {
+        "count": 5,
+        "return": -3.253731343283582,
+        "min": -3.253731343283582,
+        "max": -1,
+        "maxPositiveStreak": 1,
+        "maxNegativeStreak": 2,
+        "breakdownValue": "2011",
+        "yield": -0.6507462686567165,
+        "averageOdd": 2.0996111087724842
+      },
+      {
+        "count": 4,
+        "return": 0.2799999999999998,
+        "min": -2,
+        "max": 0.2799999999999998,
+        "maxPositiveStreak": 2,
+        "maxNegativeStreak": 2,
+        "breakdownValue": "2012",
+        "yield": 0.06999999999999995,
+        "averageOdd": 2.028809523809524
+      },
+      {
+        "count": 3,
+        "return": -1.4444444444444444,
+        "min": -2,
+        "max": -1,
+        "maxPositiveStreak": 1,
+        "maxNegativeStreak": 2,
+        "breakdownValue": "2013",
+        "yield": -0.48148148148148145,
+        "averageOdd": 2.152143113987774
+      },
+      {
+        "count": 7,
+        "return": 0.4600000000000004,
+        "min": -2.3899999999999997,
+        "max": 1.6100000000000003,
+        "maxPositiveStreak": 2,
+        "maxNegativeStreak": 4,
+        "breakdownValue": "2014",
+        "yield": 0.06571428571428577,
+        "averageOdd": 2.397864357864358
+      },
+      {
+        "count": 3,
+        "return": 2.3260662525879923,
+        "min": 1.0300000000000002,
+        "max": 2.3260662525879923,
+        "maxPositiveStreak": 3,
+        "maxNegativeStreak": 0,
+        "breakdownValue": "2015",
+        "yield": 0.7753554175293308,
+        "averageOdd": 1.7753554175293307
+      },
+      {
+        "count": 3,
+        "return": -3,
+        "min": -3,
+        "max": -1,
+        "maxPositiveStreak": 0,
+        "maxNegativeStreak": 3,
+        "breakdownValue": "2016",
+        "yield": -1,
+        "averageOdd": 1.9302497846683895
+      }
+    ]
+  },
+  "summary": {
+    "count": 4.166666666666667,
+    "return": -0.7720182558566723,
+    "minBankroll": -3.253731343283582,
+    "worstReturn": -3.253731343283582,
+    "bestReturn": 2.3260662525879923,
+    "losingSeason": 3,
+    "averageOdd": 2.1188635637083,
+    "yield": -0.18528438140560133,
+    "returnSharpeRatio": -0.38764636546164427,
+    "countSharpeRatio": 2.8490144114909484,
+    "countParameters": 2,
+    "type": "AGAINST"
+  }
+}
