@@ -87,7 +87,14 @@ describe('Sdql Service', function () {
 				type: 'DECIMAL'
 			}).should.eventually.jsonEqual(expectedSystem);
 		});
+	});
 
-	})
+	describe('#run()', function () {
+		it('should return an error', function () {
+			let sdqlService = new SdqlService();
+			return sdqlService.run('p:points < 3, 7, 10, 14', 'MLB')
+				.should.be.rejectedWith(Error);
+		});
+	});
 
 });
