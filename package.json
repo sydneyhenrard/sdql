@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,8 @@
   "dependencies": {
     "request": "^2.81.0",
     "request-promise-native": "^1.0.3",
-    "simple-statistics": "^3.0.0"
+    "simple-statistics": "^3.0.0",
+    "snyk": "^1.319.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -32,5 +35,6 @@
     "coveralls": "^2.13.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
-  }
+  },
+  "snyk": true
 }
